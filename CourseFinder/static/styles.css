@@ -12,84 +12,41 @@
       }
   
       .content {
+          margin: auto;
           text-align: center;
           width: 75%;
+          color: white;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .svgimg {
+        margin: auto;
+        width: 500px;
+        height: 400px;
+        align-self: center;
+        background-color: white;
+      }
+
+      .wrapper {
+        background-color: whitesmoke;
+      }
+
+      .aboutus {
+        margin: auto;
+        align-self: center;
+        align-content: center;
+        background-color: transparent;
+      }
+
+      h1 {
+        color: white;
       }
   
       .footer{
+        color: white;
         display: flex;
         justify-content: space-evenly;
         font-weight: 600;
         font-size: 20px;
-      }
-      /* Jumbotron (hero) */
-      .jumbotron {
-        position: relative;
-        background: url("undraw_Web_search_re_efla.svg");
-        background-repeat: no-repeat;
-        background-position: center;
-        
-        &:before {
-          position: absolute;
-          content: '';
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background: rgba(0, 0, 0, .5);
-        }
-        
-        .container {
-          padding: 75px 0;
-        }
-        
-        h1,
-        .lead {
-          color: #fff;
-        }
-      }
-  
-      /* Bustom button */
-      .btn-primary {
-        background: #1096fc;
-        border: 0;
-        
-        &:hover {
-          background: darken(#1096fc, 7%);
-        }
-      }
-  
-      /* Features */
-      .sec-features {
-        .row {    
-          &:nth-of-type(n+2) {
-            margin-top: 160px;
-          }
-          
-          &:last-of-type {
-            margin-bottom: 160px;
-          }
-        }
-        
-        .feature-icon {
-          max-width: 150px;
-        }
-      }
-  
-      /* Testimonials */
-      .sec-testimonials {
-        padding-top: 128px;
-        padding-bottom: 128px;
-      }
-  
-      a {
-          font-size: 18px;
-          color: rgba(255, 255, 255, .5);
-          transition: color .235s ease-in-out;
-          
-          &:focus,
-          &:hover {
-            color: rgba(255, 255, 255, .25);
-          }
-        }
+        margin: auto;
       }
