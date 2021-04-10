@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
+html{
+    overflow: hidden;
+}
+
+
 .body{
   background-image: url('https://ordinaryfaith.net/wp-content/uploads/2016/03/Gray-plain-website-background.jpg');
   background-repeat: no-repeat;
@@ -8,8 +13,8 @@
 
 .login-page {
   width: 360px;
-  padding: 8% 0 0;
-  margin: auto;
+  margin: 50px auto ;
+  padding: 1px;
 
 }
 .form {
