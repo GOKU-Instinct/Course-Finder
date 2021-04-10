@@ -15,7 +15,7 @@ def logIn(request):
 
         if user is not None:
             auth.login( request , user )
-            return redirect('/Dashboard')
+            return redirect('/search')
         else:
             messages.info( request , 'Invalid Credentials' )
             return redirect('/search')

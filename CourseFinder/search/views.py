@@ -15,6 +15,8 @@ def mainPage(request):
 
         arr = base.objects.filter(keyword=content,KeyDuration=duration)
 
+        for i in arr:
+            print(i.Link)
         
         return render( request , 'results.html' , {
             'val' : arr
