@@ -2,7 +2,14 @@
 
 
 body{
-    background-color: lightblue;
+    background-color: rgb(7, 42, 58);
+}
+
+body{
+    background-image: url('https://ordinaryfaith.net/wp-content/uploads/2016/03/Gray-plain-website-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
 }
 h1,h2,h3,h4,h5,h6{
     margin: 0;
@@ -14,7 +21,7 @@ h1,h2,h3,h4,h5,h6{
     display: flex;
     align-items: center;
     padding-left: 30px;
-    color: rgb(14, 20, 102);
+    color: rgb(255, 255, 255);
     font-family: 'monospace';
     font-size: 40px;
     font-weight: 600;
