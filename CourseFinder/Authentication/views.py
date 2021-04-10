@@ -18,7 +18,7 @@ def logIn(request):
             return redirect('/Dashboard')
         else:
             messages.info( request , 'Invalid Credentials' )
-            return redirect('/logIn')
+            return redirect('/search')
         return HttpResponse("<h1><center>Successfull</center></h1>")
 
 
@@ -43,6 +43,6 @@ def signUp(request):
             user = User.objects.create_user( username=username , password = password , email = email , first_name = name )
             user.save()
             auth.login( request , user )
-            return HttpResponse( 'Successfull' )
+            return redirect( '/search' )
          
         
