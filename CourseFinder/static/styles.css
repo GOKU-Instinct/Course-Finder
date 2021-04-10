@@ -1,3 +1,4 @@
+
 	/* Resets */
 	hr {
         margin-left: 0;
@@ -9,6 +10,12 @@
           width: 75%;
       }
   
+      .footer{
+        display: flex;
+        justify-content: space-evenly;
+        font-weight: 600;
+        font-size: 20px;
+      }
       /* Jumbotron (hero) */
       .jumbotron {
         position: relative;

@@ -11,9 +11,7 @@ def mainPage(request):
         duration = request.POST.get('duration')
         money = request.POST.get('money')
 
-        duration = int(duration)
-
-        arr = base.objects.filter(keyword=content,KeyDuration=duration)
+        arr = base.objects.filter(keyword=content,KeyDuration=int(duration)).order_by('Duration')
 
         for i in arr:
             print(i.Link)
