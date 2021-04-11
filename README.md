@@ -7,7 +7,7 @@ This is a web application to find out best study material or best courses online
   <a href="#">Youtube Demo Link</a>
   
 ## Presentation Link:
-  <a href="#">Presentation Link</a>
+  <a href="https://docs.google.com/presentation/d/1oUQvSFnfx_YXEZ1NqaJK2GkIjDAOm_8rEY8aLjSVqWA/edit?usp=sharing">Presentation Link</a>
   
   
 ## Table of Contents:
