@@ -21,7 +21,7 @@
 
 ## Contributors:
 
-Team Name: Crispr
+### Team Name: Crispr
 
 ### Team Members: 
 * [Shreya Dubey](https://github.com/GOKU-Instinct)
@@ -30,5 +30,5 @@ Team Name: Crispr
 * [Shikha Jha](https://github.com/ManasUniyal)
 
 
-### Made at:
+## Made at:
 <a href="https://hack36.com"> <img src="http://bit.ly/BuiltAtHack36" height=20px> </a>
